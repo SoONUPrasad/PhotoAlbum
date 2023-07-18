@@ -2,6 +2,10 @@
 
 This is Photo Ablum App Where you can Create Album and add photo by Link
 
+# Hosted Link
+
+Open the Site with [https://photoalbumupdate.netlify.app/](https://photoalbumupdate.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

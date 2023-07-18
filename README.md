@@ -1,3 +1,7 @@
+# disc
+
+This is Photo Ablum App Where you can Create Album and add photo by Link
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.album-name {
+  width: 62%;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.album-name:hover {
+  background-color: cyan;
+}
+
+.button {
+  border: 2px solid black;
+  background-color: cyan;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.albumForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closer {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
 }

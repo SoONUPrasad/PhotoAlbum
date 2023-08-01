@@ -6,14 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAHV8EU9nPzeVoqbMMTtuWnjR5rRWZgULQ",
-  authDomain: "photosalbum-aad23.firebaseapp.com",
-  projectId: "photosalbum-aad23",
-  storageBucket: "photosalbum-aad23.appspot.com",
-  messagingSenderId: "302103812507",
-  appId: "1:302103812507:web:b01e5800e8b721f8a2e93e",
+  apiKey: "AIzaSyBsLF54iC7K6sem6ChMeB_q9Ihafit6SzE",
+  authDomain: "photoalbums-409b5.firebaseapp.com",
+  projectId: "photoalbums-409b5",
+  storageBucket: "photoalbums-409b5.appspot.com",
+  messagingSenderId: "780174218422",
+  appId: "1:780174218422:web:b283ffd80420f54fff8217"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
